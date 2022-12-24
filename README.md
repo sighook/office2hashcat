@@ -20,6 +20,12 @@ hashcat mode
 | 9820 | MS Office <= 2003 $3, SHA1 + RC4, collider #2   |
 | 9800 | MS Office <= 2003 $3/$4, SHA1 + RC4             |
 
+Use the following command to view supported modes:
+
+```sh
+hashcat --help | grep -i office
+```
+
 usage
 -----
 
